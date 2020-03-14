@@ -27,7 +27,8 @@ export default {
         if (true) { var x = 5; } console.log(x); // 5
       </pre>
       <p>
-        This behavior changes, when using the let declaration introduced in ECMAScript 2015.
+        This behavior changes, when using the let declaration introduced in
+        ECMAScript 2015.
       </p>
       <pre>
         if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined

@@ -36,11 +36,16 @@ export default {
 
 .navigation {
   flex: 5;
-  border-right: 2px solid grey;
 }
 
 .content {
   flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation {
+    border-bottom: 1px solid grey;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -58,6 +63,7 @@ export default {
   .navigation {
     flex: 1;
     overflow-x: auto;
+    border-right: 2px solid grey;
   }
 }
 </style>

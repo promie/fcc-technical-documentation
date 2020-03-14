@@ -36,7 +36,8 @@ export default {
         }
       </pre>
       <p>
-        However, object attributes are not protected, so the following statement is executed without problems.
+        However, object attributes are not protected, so the following statement
+        is executed without problems.
       </p>
       <pre>
         const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";

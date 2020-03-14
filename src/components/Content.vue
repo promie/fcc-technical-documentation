@@ -99,7 +99,7 @@ export default {
 .content {
   padding: 30px 10px;
   overflow-x: auto;
-  border: solid 1px red;
+  height: 95vh;
 }
 
 @media only screen and (min-width: 768px) {

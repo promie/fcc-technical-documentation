@@ -48,7 +48,7 @@ export default {
         <li>After the third pass: n = 3 and x = 6</li>
       </ul>
       <p>
-        After completing the third pass, the condition n &lt; 3 is no longer
+        After completing the third pass, the condition n &lt; 3 is no longer so
         so the loop terminates.
       </p>
     </div>

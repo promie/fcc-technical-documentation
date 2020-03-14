@@ -27,7 +27,8 @@ export default {
         x = 42.
       </pre>
       <p>
-        This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
+        This always declares a global variable. It generates a strict JavaScript
+        warning. You shouldn't use this variant.
       </p>
       <p>
         With the keyword let. For example,
@@ -36,7 +37,8 @@ export default {
         let y = 13.
       </pre>
       <p>
-        This syntax can be used to declare a block scope local variable. See Variable scope below.
+        This syntax can be used to declare a block scope local variable. See
+        Variable scope below.
       </p>
     </div>
   </div>

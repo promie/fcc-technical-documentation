@@ -19,7 +19,8 @@ export default {
           Good working knowledge of HyperText Markup Language (HTML).
         </li>
         <li>
-          Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.
+          Some programming experience. If you are new to programming, try one of
+          the tutorials linked on the main page about JavaScript.
         </li>
       </ul>
     </div>

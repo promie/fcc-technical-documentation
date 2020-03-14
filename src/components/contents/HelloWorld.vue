@@ -9,7 +9,8 @@ export default {
     <div class="title">Hello World</div>
     <div class="description">
       <p>
-        To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+        To get started with writing JavaScript, open the Scratchpad and write
+        your first "Hello world" JavaScript code:
       </p>
 
       <pre>
@@ -17,7 +18,8 @@ export default {
         greetMe("World");
       </pre>
       <p>
-        Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+        Select the code in the pad and hit Ctrl+R to watch it unfold in your
+        browser!
       </p>
     </div>
   </div>
