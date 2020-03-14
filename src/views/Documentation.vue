@@ -36,12 +36,11 @@ export default {
 
 .navigation {
   flex: 5;
-  border: 1px solid red;
+  border-right: 2px solid grey;
 }
 
 .content {
   flex: 1;
-  border: 1px solid red;
 }
 
 @media only screen and (min-width: 768px) {
