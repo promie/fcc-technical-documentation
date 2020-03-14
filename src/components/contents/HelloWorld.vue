@@ -35,15 +35,6 @@ p {
   padding: 10px;
 }
 
-pre {
-  background-color: #eee;
-  padding-top: 10px;
-  border-radius: 3px;
-  width: 100%;
-  font-size: 9px;
-  white-space: pre-wrap;
-}
-
 @media only screen and (min-width: 768px) {
   /* Desktop View */
   .title {
@@ -53,10 +44,6 @@ pre {
 
   p {
     font-size: 16px;
-  }
-
-  pre {
-    font-size: 14px;
   }
 }
 </style>

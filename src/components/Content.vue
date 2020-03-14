@@ -3,6 +3,10 @@ import Introduction from '@/components/contents/Introduction.vue'
 import Knowledge from '@/components/contents/Knowledge.vue'
 import Javascript from '@/components/contents/Javascript.vue'
 import HelloWorld from '@/components/contents/HelloWorld.vue'
+import Variables from '@/components/contents/Variables.vue'
+import DeclaringVariables from '@/components/contents/DeclaringVariables.vue'
+import VariableScope from '@/components/contents/VariableScope.vue'
+import GlobalVariables from '@/components/contents/GlobalVariables.vue'
 
 export default {
   name: 'Content',
@@ -10,7 +14,11 @@ export default {
     Introduction,
     Knowledge,
     Javascript,
-    HelloWorld
+    HelloWorld,
+    Variables,
+    DeclaringVariables,
+    VariableScope,
+    GlobalVariables
   }
 }
 </script>
@@ -30,6 +38,22 @@ export default {
 
     <div id="helloworld">
       <HelloWorld />
+    </div>
+
+    <div id="variables">
+      <Variables />
+    </div>
+
+    <div id="declaringvariables">
+      <DeclaringVariables />
+    </div>
+
+    <div id="variablescope">
+      <VariableScope />
+    </div>
+
+    <div id="globalvariables">
+      <GlobalVariables />
     </div>
   </div>
 </template>
