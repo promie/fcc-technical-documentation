@@ -56,20 +56,17 @@ a {
 
 @media only screen and (min-width: 768px) {
   /* Desktop View */
-  .navigation {
-    min-height: 100vh;
-  }
 
   .title {
     padding: 10px 0 10px 15px;
   }
 
   ul {
-    height: 100vh;
+    height: 94vh;
   }
 
   li {
-    padding: 20px;
+    padding: 15px;
   }
 
   a {

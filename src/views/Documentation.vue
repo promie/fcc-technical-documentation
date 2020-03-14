@@ -52,10 +52,12 @@ export default {
 
   .content {
     flex: 5;
+    overflow-x: auto;
   }
 
   .navigation {
     flex: 1;
+    overflow-x: auto;
   }
 }
 </style>
