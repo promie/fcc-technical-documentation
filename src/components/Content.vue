@@ -7,6 +7,12 @@ import Variables from '@/components/contents/Variables.vue'
 import DeclaringVariables from '@/components/contents/DeclaringVariables.vue'
 import VariableScope from '@/components/contents/VariableScope.vue'
 import GlobalVariables from '@/components/contents/GlobalVariables.vue'
+import Constants from '@/components/contents/Constants.vue'
+import DataTypes from '@/components/contents/DataTypes.vue'
+import Conditional from '@/components/contents/Conditional.vue'
+import While from '@/components/contents/While.vue'
+import Functions from '@/components/contents/Functions.vue'
+import Reference from '@/components/contents/Reference.vue'
 
 export default {
   name: 'Content',
@@ -18,7 +24,13 @@ export default {
     Variables,
     DeclaringVariables,
     VariableScope,
-    GlobalVariables
+    GlobalVariables,
+    Constants,
+    DataTypes,
+    Conditional,
+    While,
+    Functions,
+    Reference
   }
 }
 </script>
@@ -54,6 +66,30 @@ export default {
 
     <div id="globalvariables">
       <GlobalVariables />
+    </div>
+
+    <div id="constants">
+      <Constants />
+    </div>
+
+    <div id="datatypes">
+      <DataTypes />
+    </div>
+
+    <div id="conditional">
+      <Conditional />
+    </div>
+
+    <div id="while">
+      <While />
+    </div>
+
+    <div id="functions">
+      <Functions />
+    </div>
+
+    <div id="reference">
+      <Reference />
     </div>
   </div>
 </template>
