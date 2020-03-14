@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div>
-    <div class="title">Variable scope</div>
+    <h2>Variable scope</h2>
     <div class="description">
       <p>
         When you declare a variable outside of any function, it is called a
@@ -36,28 +36,3 @@ export default {
     </div>
   </div>
 </template>
-
-<style scoped>
-/* Mobile First Approach */
-.title {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-p {
-  font-size: 16px;
-  padding: 10px;
-}
-
-@media only screen and (min-width: 768px) {
-  /* Desktop View */
-  .title {
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-}
-</style>

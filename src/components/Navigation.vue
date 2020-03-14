@@ -11,26 +11,30 @@ export default {
 
 <template>
   <div class="navigation">
-    <div class="title">JS Documentation</div>
+    <div class="title">JS DOCUMENTATION</div>
     <ul>
-      <li
+      <a
         v-for="(info, index) in information"
         v-bind:key="index"
+        v-bind:href="info.link"
+        ><li>{{ info.description }}</li></a
       >
-        <a v-bind:href="info.link">{{ info.description }}</a>
-      </li>
     </ul>
   </div>
 </template>
 
 <style scoped>
-/* Mobile First Approach */
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
 
+/* Mobile First Approach */
 .title {
   padding: 10px 0 10px 10px;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: #f1d43b;
+  color: #000;
 }
 
 ul {
@@ -50,6 +54,12 @@ a {
   color: black;
   font-size: 16px;
   cursor: pointer;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+li:hover,
+a:hover {
+  background-color: #f1d43b;
 }
 
 @media only screen and (min-width: 768px) {

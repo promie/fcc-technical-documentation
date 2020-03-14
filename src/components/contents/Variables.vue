@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div>
-    <div class="title">Variables</div>
+    <h2>Variables</h2>
     <div class="description">
       <p>
         You use variables as symbolic names for values in your application. The
@@ -27,28 +27,3 @@ export default {
     </div>
   </div>
 </template>
-
-<style scoped>
-/* Mobile First Approach */
-.title {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-p {
-  font-size: 16px;
-  padding: 10px;
-}
-
-@media only screen and (min-width: 768px) {
-  /* Desktop View */
-  .title {
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-}
-</style>

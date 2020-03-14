@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div>
-    <div class="title">while statement</div>
+    <h2>while statement</h2>
     <div class="description">
       <p>
         A while statement executes its statements as long as a specified
@@ -57,31 +57,12 @@ export default {
 
 <style scoped>
 /* Mobile First Approach */
-.title {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-p {
-  font-size: 16px;
-  padding: 10px;
-}
-
 li {
   padding: 5px;
 }
 
 @media only screen and (min-width: 768px) {
   /* Desktop View */
-  .title {
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
   li {
     padding: 10px;
   }

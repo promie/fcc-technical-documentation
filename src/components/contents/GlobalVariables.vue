@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div>
-    <div class="title">Global variables</div>
+    <h2>Global variables</h2>
     <div class="description">
       <p>
         Global variables are in fact properties of the global object. In web
@@ -23,28 +23,3 @@ export default {
     </div>
   </div>
 </template>
-
-<style scoped>
-/* Mobile First Approach */
-.title {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-p {
-  font-size: 16px;
-  padding: 10px;
-}
-
-@media only screen and (min-width: 768px) {
-  /* Desktop View */
-  .title {
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-}
-</style>
