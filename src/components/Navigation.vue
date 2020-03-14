@@ -1,6 +1,11 @@
 <script>
+import { LINKS } from '@/constants'
+
 export default {
-  name: 'Navigation'
+  name: 'Navigation',
+  created() {
+    this.information = LINKS
+  }
 }
 </script>
 
@@ -8,20 +13,12 @@ export default {
   <div class="navigation">
     <div class="title">JS Documentation</div>
     <ul>
-      <li><a href="#">Introduction</a></li>
-      <li><a href="#">What you should already know</a></li>
-      <li><a href="#">JavaScript and Java</a></li>
-      <li><a href="#">Hello world</a></li>
-      <li><a href="#">Variables</a></li>
-      <li><a href="#">Declaring variables</a></li>
-      <li><a href="#">Variable scope</a></li>
-      <li><a href="#">Global Variables</a></li>
-      <li><a href="#">Constants</a></li>
-      <li><a href="#">Data types</a></li>
-      <li><a href="#">if...else statement</a></li>
-      <li><a href="#">while statement</a></li>
-      <li><a href="#">Function declarations</a></li>
-      <li><a href="#">Reference</a></li>
+      <li
+        v-for="(info, index) in information"
+        v-bind:key="index"
+      >
+        <a v-bind:href="info.link">{{ info.description }}</a>
+      </li>
     </ul>
   </div>
 </template>
