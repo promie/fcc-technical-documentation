@@ -1,10 +1,16 @@
 <script>
 import Introduction from '@/components/contents/Introduction.vue'
+import Knowledge from '@/components/contents/Knowledge.vue'
+import Javascript from '@/components/contents/Javascript.vue'
+import HelloWorld from '@/components/contents/HelloWorld.vue'
 
 export default {
   name: 'Content',
   components: {
-    Introduction
+    Introduction,
+    Knowledge,
+    Javascript,
+    HelloWorld
   }
 }
 </script>
@@ -13,6 +19,17 @@ export default {
   <div class="content">
     <div id="introduction">
       <Introduction />
+    </div>
+    <div id="knowledge">
+      <Knowledge />
+    </div>
+
+    <div id="javascript">
+      <Javascript />
+    </div>
+
+    <div id="helloworld">
+      <HelloWorld />
     </div>
   </div>
 </template>

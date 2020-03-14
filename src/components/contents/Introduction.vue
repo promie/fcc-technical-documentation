@@ -66,7 +66,6 @@ li {
 
   p {
     font-size: 16px;
-    padding: 15px;
   }
 
   li {
