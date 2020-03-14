@@ -33,6 +33,7 @@ export default {
   padding: 10px 0 10px 10px;
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
 }
 
 ul {
@@ -50,7 +51,7 @@ li {
 a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
 }
 

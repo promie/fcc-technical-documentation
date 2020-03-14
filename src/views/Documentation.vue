@@ -42,6 +42,13 @@ export default {
   flex: 1;
 }
 
+pre {
+  background-color: #eee;
+  padding-top: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+
 @media only screen and (max-width: 600px) {
   .navigation {
     border-bottom: 1px solid grey;

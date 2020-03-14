@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'Variable Scope'
+  name: 'VariableScope'
 }
 </script>
 

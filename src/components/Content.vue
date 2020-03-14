@@ -37,58 +37,58 @@ export default {
 
 <template>
   <div class="content">
-    <div id="introduction">
+    <div id="introduction" class="section">
       <Introduction />
     </div>
-    <div id="knowledge">
+    <div id="knowledge" class="section">
       <Knowledge />
     </div>
 
-    <div id="javascript">
+    <div id="javascript" class="section">
       <Javascript />
     </div>
 
-    <div id="helloworld">
+    <div id="helloworld" class="section">
       <HelloWorld />
     </div>
 
-    <div id="variables">
+    <div id="variables" class="section">
       <Variables />
     </div>
 
-    <div id="declaringvariables">
+    <div id="declaringvariables" class="section">
       <DeclaringVariables />
     </div>
 
-    <div id="variablescope">
+    <div id="variablescope" class="section">
       <VariableScope />
     </div>
 
-    <div id="globalvariables">
+    <div id="globalvariables" class="section">
       <GlobalVariables />
     </div>
 
-    <div id="constants">
+    <div id="constants" class="section">
       <Constants />
     </div>
 
-    <div id="datatypes">
+    <div id="datatypes" class="section">
       <DataTypes />
     </div>
 
-    <div id="conditional">
+    <div id="conditional" class="section">
       <Conditional />
     </div>
 
-    <div id="while">
+    <div id="while" class="section">
       <While />
     </div>
 
-    <div id="functions">
+    <div id="functions" class="section">
       <Functions />
     </div>
 
-    <div id="reference">
+    <div id="reference" class="section">
       <Reference />
     </div>
   </div>
@@ -100,6 +100,10 @@ export default {
   padding: 30px 10px;
   overflow-x: auto;
   height: 95vh;
+}
+
+.section {
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {

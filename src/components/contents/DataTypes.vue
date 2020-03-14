@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'Data Types'
+  name: 'DataTypes'
 }
 </script>
 
