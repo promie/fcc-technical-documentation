@@ -11,7 +11,12 @@ export default {
 
 <template>
   <div class="navigation">
-    <div class="title">JS DOCUMENTATION</div>
+    <div class="title">
+      JS DOCUMENTATION
+      <a href="https://github.com/promie" target="_blank"
+        ><span class="author">A PROJECT BY P YUTASANE</span></a
+      >
+    </div>
     <ul>
       <a
         v-for="(info, index) in information"
@@ -62,11 +67,22 @@ a:hover {
   background-color: #f1d43b;
 }
 
+.author {
+  display: block;
+  font-size: 15px;
+  text-align: end;
+  padding-right: 62px;
+}
+
 @media only screen and (min-width: 768px) {
   /* Desktop View */
 
   .title {
     padding: 10px 0 10px 15px;
+  }
+
+  .author {
+    padding-right: 30px;
   }
 
   ul {
