@@ -13,12 +13,12 @@ export default {
 
 <template>
   <div class="documentation">
-    <div class="content">
-      <Content />
-    </div>
-
     <div class="navigation">
       <Navigation />
+    </div>
+
+    <div class="content">
+      <Content />
     </div>
   </div>
 </template>
@@ -52,13 +52,11 @@ export default {
   }
 
   .content {
-    flex: 1;
-    width: 30%;
+    flex: 5;
   }
 
   .navigation {
-    flex: 5;
-    width: 70%;
+    flex: 1;
   }
 }
 </style>
